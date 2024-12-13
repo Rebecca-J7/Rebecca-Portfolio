@@ -1,5 +1,3 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
-
 ## Rebecca's Portfolio Website Design
 Designed with FIGMA
 [Design](https://www.figma.com/design/4K4ud0VUGkqODTWTQpXccL/Rebecca's-Portfolio?node-id=0-1&t=IutgoG47XsyaKwux-1)
