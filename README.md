@@ -1,7 +1,6 @@
 ## Rebecca's Portfolio Website Design
-Designed with FIGMA
-[Design](https://www.figma.com/design/4K4ud0VUGkqODTWTQpXccL/Rebecca's-Portfolio?node-id=0-1&t=IutgoG47XsyaKwux-1)
-Currently in progress
+Designed with FIGMA  <br />
+[Design](https://www.figma.com/design/4K4ud0VUGkqODTWTQpXccL/Rebecca's-Portfolio?node-id=0-1&t=IutgoG47XsyaKwux-1) currently in progress!
 
 ## Getting Started
 
