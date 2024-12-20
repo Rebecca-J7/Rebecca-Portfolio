@@ -12,6 +12,7 @@ module.exports = {
       spacing: {
         "word-1": '21.25em',
         "word-2": '27em',
+        'word-3': '10em',
       },
       keyframes: {
         fadeDown: {
