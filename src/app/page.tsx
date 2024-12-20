@@ -1,12 +1,9 @@
-import Header from "@/src/components/Header";
+import Header from "@/components/Header";
 
 const Home = () => {
   return (
-    <div className="flex w-full flex-col items-center justify-center space-y-16">
-      <div className="m-3" />
-      <Header/>
-      <div className="m-10" />
-      <div className="m-20" />
+    <div className="w-screen h-screen bg-gradient-to-b from-web-purple-3 to-blue-300">
+      <Header />
     </div>
   );
 };

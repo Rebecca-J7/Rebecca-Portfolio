@@ -10,7 +10,8 @@
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
 
 ## Figma
-Designed with FIGMA  <br />
+
+Designed with FIGMA <br />
 [Rebecca's Portfolio Design File](https://www.figma.com/design/4K4ud0VUGkqODTWTQpXccL/Rebecca's-Portfolio?node-id=0-1&t=IutgoG47XsyaKwux-1)
 
 ## Node.js
