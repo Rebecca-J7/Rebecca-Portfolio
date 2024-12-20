@@ -1,21 +1,23 @@
 const Header = () => {
   return (
     <div className = "w-screen h-16 bg-web-purple-1">
-      <p className="text-web-purple-2 font-semibold text-xl absolute left-3.5 top-5 font-mono hover">
+      <div className="flex flex-row gap-5 absolute top-5 left-7 font-semibold text-xl font-mono">
+      <p className="text-web-purple-2 hover">
         rebecca jennings
       </p>
-      <p className="text-black font-semibold text-xl absolute left-52 top-5 font-mono hover:text-web-purple-2">
+      <p className="text-black hover:text-web-purple-2">
         about
       </p>
-      <p className="text-black font-semibold text-xl absolute left-72 top-5 font-mono hover:text-web-purple-2">
+      <p className="text-black hover:text-web-purple-2">
         experience
       </p>
-      <p className="text-black font-semibold text-xl absolute left-word-1 top-5 font-mono hover:text-web-purple-2">
+      <p className="text-black hover:text-web-purple-2">
         projects
       </p>
-      <p className="text-black font-semibold text-xl absolute left-word-2 top-5 font-mono hover:text-web-purple-2">
+      <p className="text-black hover:text-web-purple-2">
         gallery
       </p>
+      </div>
     </div>
   );
 };
