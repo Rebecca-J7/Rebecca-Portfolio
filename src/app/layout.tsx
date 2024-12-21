@@ -1,8 +1,9 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "Rebecca's Portfolio",
-  description: "A personal website that highlights my perspectives, goals, experience, projects and more!",
+  title: "rebecca-portfolio",
+  description:
+    "A personal website that highlights my perspectives, goals, experience, projects and more!",
 };
 
 export default function RootLayout({
