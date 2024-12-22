@@ -8,7 +8,7 @@ const MusicButton = () => {
 
   const togglePlay = () => {
     if (!audioRef.current) return;
-    
+
     if (isPlaying) {
       audioRef.current.pause(); // Pause the audio
     } else {
@@ -16,7 +16,6 @@ const MusicButton = () => {
     }
 
     setIsPlaying(!isPlaying);
-
   };
 
   return (
@@ -36,7 +35,6 @@ const MusicButton = () => {
       </p>
 
       <audio ref={audioRef} src="/bts-serendipity-lofi.mp3" />
-
     </div>
   );
 };
