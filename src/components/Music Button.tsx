@@ -1,14 +1,22 @@
 "use client";
 import "@fortawesome/fontawesome-free/css/all.min.css";
-import { useState } from "react";
+import { useState, useRef } from "react";
 
 const MusicButton = () => {
   const [isPlaying, setIsPlaying] = useState(false);
+  const audioRef = useRef<HTMLAudioElement | null>(null);
 
   const togglePlay = () => {
-    setIsPlaying(!isPlaying); // Toggle the state
-    console.log(isPlaying ? "Paused!" : "Playing!");
-    // Add additional logic for playing/pausing music
+    if (!audioRef.current) return;
+    
+    if (isPlaying) {
+      audioRef.current.pause(); // Pause the audio
+    } else {
+      audioRef.current.play(); // Play the audio
+    }
+
+    setIsPlaying(!isPlaying);
+
   };
 
   return (
@@ -26,6 +34,9 @@ const MusicButton = () => {
       <p className="relative top-2 grow basis-3 font-mono text-xl font-semibold text-black">
         lofi serendipity
       </p>
+
+      <audio ref={audioRef} src="/bts-serendipity-lofi.mp3" />
+
     </div>
   );
 };
