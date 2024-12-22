@@ -1,12 +1,14 @@
 import Header from "@/components/Header";
-import Introduction from "@/components/Introduction";
+import Welcome from "@/components/Welcome";
 import MusicButton from "@/components/Music Button";
+import Introduction from "@/components/Introduction";
 
 const Home = () => {
   return (
-    <div className="h-screen w-screen bg-gradient-to-b from-web-purple-3 to-web-purple-1">
+    <div className="flex w-full flex-col items-center justify-center space-y-16">
       <Header />
       <MusicButton />
+      <Welcome />
       <Introduction />
     </div>
   );

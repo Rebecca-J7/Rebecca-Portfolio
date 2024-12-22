@@ -3,7 +3,7 @@ import "./globals.css";
 export const metadata = {
   title: "rebecca-portfolio",
   description:
-    "A personal website that highlights my perspectives, goals, experience, projects and more!",
+    "A personal website that highlights my perspectives, goals, experience, projects, and more!",
 };
 
 export default function RootLayout({
@@ -13,7 +13,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className="min-h-screen bg-gradient-to-b from-web-purple-3 to-web-purple-1">
+        {children}
+      </body>
     </html>
   );
 }
