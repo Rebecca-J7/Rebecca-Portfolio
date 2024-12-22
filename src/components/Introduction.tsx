@@ -103,14 +103,14 @@ const Introduction = () => {
         </div>
       </div>
 
-      <div className="relative right-5 flex h-72 w-[650px] items-center justify-center rounded-md border-2 border-web-purple-2 bg-web-purple-1">
+      <div className="relative right-3 flex h-[280px] w-[620px] items-center justify-center rounded-md border-2 border-web-purple-2 bg-web-purple-1">
         <div className="flex w-5/6 flex-row gap-10">
           <img
             src="/BCOE-Photo.jpg"
             alt="BCOE Photo"
             className="h-60 w-40 rounded-md border-2 border-web-purple-2"
           />
-          <p className="relative top-2 font-mono text-xl font-semibold text-black">
+          <p className="content-center font-mono text-xl font-semibold text-black">
             {tabContent[activeTab]}
           </p>
         </div>
