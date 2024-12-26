@@ -58,7 +58,7 @@ const Contact = () => {
             <img
               src="/icons8-resume-24.png"
               alt="Resume Logo"
-              className="h-[25px] w-[25px] object-contain"
+              className="h-[26px] w-[26px] object-contain"
             />
             <Link href="/CS Resume.pdf">
               <p className="relative top-1 font-mono text-xs font-semibold text-black hover:text-web-purple-2">
