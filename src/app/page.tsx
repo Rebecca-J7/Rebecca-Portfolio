@@ -4,6 +4,7 @@ import MusicButton from "@/components/Music Button";
 import Introduction from "@/components/Introduction";
 import Contact from "@/components/Contact";
 import About from "@/components/About";
+import Skills from "@/components/Skills";
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       <Introduction />
       <Contact />
       <About />
+      <Skills />
     </div>
   );
 };
