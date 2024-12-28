@@ -10,7 +10,7 @@ const Welcome = () => {
         </p>
       </div>
 
-      <p className="relative top-7 max-w-2xl font-mono text-2xl font-semibold text-black">
+      <p className="relative top-7 max-w-2xl font-mono text-lg font-semibold text-black">
         you stumble upon this comforting space, perhaps by an occurrence... or a
         development of events by chance... may it be one of happiness and
         benefits.

@@ -6,6 +6,7 @@ import Contact from "@/components/Contact";
 import About from "@/components/About";
 import Skills from "@/components/Skills";
 import Experience from "@/components/Experience";
+import Project from "@/components/Projects";
 
 const Home = () => {
   return (
@@ -18,6 +19,7 @@ const Home = () => {
       <About />
       <Skills />
       <Experience />
+      <Project />
     </div>
   );
 };
