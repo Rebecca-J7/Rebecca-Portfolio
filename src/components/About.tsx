@@ -4,7 +4,7 @@ const About = () => {
       <p className="font-mono text-4xl font-semibold text-web-purple-2">
         About
       </p>
-      <div className="h-0.5 w-[800px] rounded-sm bg-black"></div>
+      <div className="h-0.5 w-[900px] rounded-sm bg-black"></div>
 
       <div className="relative top-7 flex flex-col gap-4">
         <p className="font-mono text-2xl font-semibold text-black">

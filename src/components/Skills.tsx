@@ -4,65 +4,67 @@ const Skills = () => {
       <p className="font-mono text-4xl font-semibold text-web-purple-2">
         Skills
       </p>
-      <div className="h-0.5 w-[800px] rounded-sm bg-black"></div>
+      <div className="h-0.5 w-[900px] rounded-sm bg-black"></div>
 
       <div className="flex flex-row gap-3">
         <img
           src="/c-logo.png"
           alt="C++ Logo"
-          className="h-[70px] w-[70px] object-contain"
+          className="h-[60px] w-[60px] transform object-contain transition-transform duration-300 hover:scale-110"
         />
         <img
-          src="/file-type-typescript-official.svg"
-          alt="TypeScript Logo"
-          className="h-[70px] w-[70px] object-contain"
+          src="/icons8-html-69.png"
+          alt="HTML Logo"
+          className="h-[67px] w-[67px] transform object-top transition-transform duration-300 hover:scale-110"
         />
         <img
           src="/file-type-css.svg"
           alt="CSS Logo"
-          className="h-[70px] w-[70px] object-contain"
-        />
-        <img
-          src="/tailwind-css.svg"
-          alt="Tailwind CSS Logo"
-          className="h-[70px] w-[70px] object-contain"
+          className="h-[60px] w-[60px] transform object-contain transition-transform duration-300 hover:scale-110"
         />
         <img
           src="/file-type-reactjs.svg"
-          alt="React Logo"
-          className="h-[70px] w-[70px] object-contain"
+          alt="Reactjs Logo"
+          className="h-[60px] w-[60px] transform object-top transition-transform duration-300 hover:scale-110"
         />
         <img
           src="/nextjs.svg"
           alt="Nextjs Logo"
-          className="h-[70px] w-[70px] object-contain"
+          className="h-[60px] w-[60px] transform object-top transition-transform duration-300 hover:scale-110"
         />
         <img
-          src="/figma-logo-vector.svg"
-          alt="Figma Logo"
-          className="h-[70px] w-[70px] object-contain"
+          src="/tailwind-css.svg"
+          alt="Tailwind CSS Logo"
+          className="h-[60px] w-[60px] transform object-top transition-transform duration-300 hover:scale-110"
+        />
+        <img
+          src="/file-type-typescript-official.svg"
+          alt="TypeScript Logo"
+          className="h-[60px] w-[60px] transform object-top transition-transform duration-300 hover:scale-110"
         />
         <img
           src="/icons8-git-90.png"
           alt="Git Logo"
-          className="h-[80px] w-[80px] object-top"
+          className="h-[70px] w-[70px] transform object-top transition-transform duration-300 hover:scale-110"
         />
         <img
           src="/icons8-github-80.png"
           alt="GitHub Logo"
-          className="h-[80px] w-[80px] object-top"
+          className="h-[70px] w-[70px] transform object-top transition-transform duration-300 hover:scale-110"
+        />
+        <img
+          src="/figma-logo-vector.svg"
+          alt="Figma Logo"
+          className="h-[60px] w-[60px] transform object-contain transition-transform duration-300 hover:scale-110"
         />
       </div>
 
       <div className="flex flex-col gap-1">
         <p className="max-w-3xl font-mono text-lg font-semibold text-black">
-          Programming Language: C++, Assembly, TypeScript, CSS
+          Technical: C++, HTML, CSS, React.js, Next.js, Tailwind CSS, TypeScript
         </p>
         <p className="max-w-3xl font-mono text-lg font-semibold text-black">
-          Web Development: Tailwind CSS, React.js, Next.js, Figma
-        </p>
-        <p className="max-w-3xl font-mono text-lg font-semibold text-black">
-          Tools: Git, GitHub, Visual Studio Code, Devpost, Arduino
+          Tools: Git, GitHub, Visual Studio Code, Devpost, Arduino, Figma
         </p>
       </div>
     </div>

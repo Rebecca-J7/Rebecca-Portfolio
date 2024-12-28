@@ -1,19 +1,27 @@
 const Experience = () => {
   return (
-    <div className="absolute left-52 top-[2120px] flex flex-col gap-3">
+    <div className="absolute left-52 top-[2080px] flex flex-col gap-3">
       <p className="font-mono text-4xl font-semibold text-web-purple-2">
         Experience
       </p>
-      <div className="h-0.5 w-[800px] rounded-sm bg-black"></div>
+      <div className="h-0.5 w-[900px] rounded-sm bg-black"></div>
 
       <div className="flex flex-row gap-4">
         <div className="h-[370px] w-[270px] rounded-2xl border-2 border-web-purple-2 bg-white shadow shadow-web-purple-2 hover:shadow-2xl">
-          <div className="relative top-8 h-0.5 w-[267px] rounded-sm bg-web-purple-2"></div>
-          <div className="relative left-2 top-9 flex flex-col">
+          <div className="relative left-4 top-3 flex flex-row gap-2">
+            <div className="h-[15px] w-[15px] rounded-full bg-web-purple-3"></div>
+            <div className="h-[15px] w-[15px] rounded-full bg-web-purple-1"></div>
+            <div className="h-[15px] w-[15px] rounded-full bg-web-purple-2"></div>
+          </div>
+          <p className="relative left-44 top-1 font-mono text-xs text-black">
+            2025-Present
+          </p>
+          <div className="relative top-1 h-0.5 w-[267px] rounded-sm bg-web-purple-2"></div>
+          <div className="relative left-2 top-3 flex flex-col">
             <p className="font-mono text-2xl font-semibold text-black">
               BCOE @ UCR
             </p>
-            <p className="font-mono text-base font-normal italic text-black">
+            <p className="font-mono text-xs font-normal italic text-black">
               Peer Academic Advisor
             </p>
             <ul className="relative left-3 max-w-[240px] list-disc font-mono text-xs font-normal text-black">
@@ -35,13 +43,21 @@ const Experience = () => {
         </div>
 
         <div className="h-[370px] w-[270px] rounded-2xl border-2 border-web-purple-2 bg-white shadow shadow-web-purple-2 hover:shadow-lg">
-          <div className="relative top-8 h-0.5 w-[267px] rounded-sm bg-web-purple-2"></div>
-          <div className="relative left-2 top-9 flex flex-col">
+          <div className="relative left-4 top-3 flex flex-row gap-2">
+            <div className="h-[15px] w-[15px] rounded-full bg-web-purple-3"></div>
+            <div className="h-[15px] w-[15px] rounded-full bg-web-purple-1"></div>
+            <div className="h-[15px] w-[15px] rounded-full bg-web-purple-2"></div>
+          </div>
+          <p className="relative left-28 top-1 font-mono text-xs text-black">
+            September 2024-Present
+          </p>
+          <div className="relative top-1 h-0.5 w-[267px] rounded-sm bg-web-purple-2"></div>
+          <div className="relative left-2 top-3 flex flex-col">
             <p className="font-mono text-2xl font-semibold text-black">
               ACM @ UCR
             </p>
-            <p className="font-mono text-base font-normal italic text-black">
-              Web Developer, Designer
+            <p className="font-mono text-xs font-normal italic text-black">
+              Web Developer/Designer
             </p>
             <ul className="relative left-3 max-w-[240px] list-disc font-mono text-xs font-normal text-black">
               <li>
@@ -67,12 +83,20 @@ const Experience = () => {
         </div>
 
         <div className="h-[370px] w-[270px] rounded-2xl border-2 border-web-purple-2 bg-white shadow shadow-web-purple-2 hover:shadow-lg">
-          <div className="relative top-8 h-0.5 w-[267px] rounded-sm bg-web-purple-2"></div>
-          <div className="relative left-2 top-9 flex flex-col">
+          <div className="relative left-4 top-3 flex flex-row gap-2">
+            <div className="h-[15px] w-[15px] rounded-full bg-web-purple-3"></div>
+            <div className="h-[15px] w-[15px] rounded-full bg-web-purple-1"></div>
+            <div className="h-[15px] w-[15px] rounded-full bg-web-purple-2"></div>
+          </div>
+          <p className="relative left-28 top-1 font-mono text-xs text-black">
+            October 2023-Present
+          </p>
+          <div className="relative top-1 h-0.5 w-[267px] rounded-sm bg-web-purple-2"></div>
+          <div className="relative left-2 top-3 flex flex-col">
             <p className="font-mono text-2xl font-semibold text-black">
               APO @ UCR
             </p>
-            <p className="font-mono text-base font-normal italic text-black">
+            <p className="font-mono text-xs font-normal italic text-black">
               Historian, Pledge Committee, Academic Secretary
             </p>
             <ul className="relative left-3 max-w-[240px] list-disc font-mono text-xs font-normal text-black">
