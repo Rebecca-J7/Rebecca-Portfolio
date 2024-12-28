@@ -1,6 +1,6 @@
 const Skills = () => {
   return (
-    <div className="absolute left-52 top-[1870px] flex flex-col gap-3">
+    <div className="absolute left-52 top-[1800px] flex flex-col gap-3">
       <p className="font-mono text-4xl font-semibold text-web-purple-2">
         Skills
       </p>
@@ -55,13 +55,13 @@ const Skills = () => {
       </div>
 
       <div className="flex flex-col gap-1">
-        <p className="max-w-3xl font-mono text-xl font-semibold text-black">
+        <p className="max-w-3xl font-mono text-lg font-semibold text-black">
           Programming Language: C++, Assembly, TypeScript, CSS
         </p>
-        <p className="max-w-3xl font-mono text-xl font-semibold text-black">
+        <p className="max-w-3xl font-mono text-lg font-semibold text-black">
           Web Development: Tailwind CSS, React.js, Next.js, Figma
         </p>
-        <p className="max-w-3xl font-mono text-xl font-semibold text-black">
+        <p className="max-w-3xl font-mono text-lg font-semibold text-black">
           Tools: Git, GitHub, Visual Studio Code, Devpost, Arduino
         </p>
       </div>
