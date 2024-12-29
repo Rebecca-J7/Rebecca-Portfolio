@@ -7,10 +7,11 @@ import About from "@/components/About";
 import Skills from "@/components/Skills";
 import Experience from "@/components/Experience";
 import Project from "@/components/Projects";
+import Gallery from "@/components/Gallery";
 
 const Home = () => {
   return (
-    <div className="flex min-h-[600vh] w-full flex-col items-center justify-center space-y-16">
+    <div className="flex min-h-[550vh] w-full flex-col items-center justify-center space-y-16">
       <Header />
       <MusicButton />
       <Welcome />
@@ -20,6 +21,7 @@ const Home = () => {
       <Skills />
       <Experience />
       <Project />
+      <Gallery />
     </div>
   );
 };

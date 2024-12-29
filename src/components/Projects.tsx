@@ -50,7 +50,7 @@ const Project = () => {
   const project = projects[currentProject];
 
   return (
-    <div className="absolute left-52 top-[2600px]">
+    <div className="absolute left-52 top-[2550px]">
       <p className="font-mono text-4xl font-semibold text-web-purple-2">
         Projects
       </p>
