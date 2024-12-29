@@ -8,6 +8,7 @@ import Skills from "@/components/Skills";
 import Experience from "@/components/Experience";
 import Project from "@/components/Projects";
 import Gallery from "@/components/Gallery";
+import Footer from "@/components/Footer";
 
 const Home = () => {
   return (
@@ -22,6 +23,7 @@ const Home = () => {
       <Experience />
       <Project />
       <Gallery />
+      <Footer />
     </div>
   );
 };
