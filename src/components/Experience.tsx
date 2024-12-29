@@ -13,8 +13,8 @@ const Experience = () => {
             <div className="h-[15px] w-[15px] rounded-full bg-web-purple-1"></div>
             <div className="h-[15px] w-[15px] rounded-full bg-web-purple-2"></div>
           </div>
-          <p className="relative left-44 top-1 font-mono text-xs text-black">
-            2025-Present
+          <p className="relative left-32 top-1 font-mono text-xs text-black">
+            January 2025-Present
           </p>
           <div className="relative top-1 h-0.5 w-[267px] rounded-sm bg-web-purple-2"></div>
           <div className="relative left-2 top-3 flex flex-col">
@@ -88,7 +88,7 @@ const Experience = () => {
             <div className="h-[15px] w-[15px] rounded-full bg-web-purple-1"></div>
             <div className="h-[15px] w-[15px] rounded-full bg-web-purple-2"></div>
           </div>
-          <p className="relative left-28 top-1 font-mono text-xs text-black">
+          <p className="relative left-32 top-1 font-mono text-xs text-black">
             October 2023-Present
           </p>
           <div className="relative top-1 h-0.5 w-[267px] rounded-sm bg-web-purple-2"></div>

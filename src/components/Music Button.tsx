@@ -19,9 +19,9 @@ const MusicButton = () => {
   };
 
   return (
-    <div className="absolute right-48 top-40 flex flex-row gap-5">
+    <div className="absolute right-48 top-48 flex flex-row gap-5">
       <button
-        className="h-11 w-11 rounded-full bg-web-purple-2 focus:outline-none"
+        className="h-10 w-10 rounded-full bg-web-purple-2 focus:outline-none"
         onClick={togglePlay}
       >
         <i
