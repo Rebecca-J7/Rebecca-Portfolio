@@ -29,13 +29,11 @@ const About = () => {
         </p>
         <p className="max-w-3xl font-mono text-lg font-medium text-black">
           Growing up, I learned early on about the importance of responsibility
-          and work ethic as I always set my mind to be open to learning and put
-          in the maximum effort in everything I did. Having adapted such
-          characteristics at young age, I often felt disconnected from my peers
-          and would try to align myself to fit in. However, I learned that by
-          being true self and pushing myself to take on new opportunities helped
-          me build those authentic connections with others and feel confident in
-          my values.
+          and work ethic as I always set my mind to be open to learning and
+          putting in the maximum effort. Additonally, through challenges and
+          experiences I learned being true to and pushing myself to take on new
+          opportunities allow me me build authentic connections with others and
+          feel confident in my values.
         </p>
         <p className="max-w-3xl font-mono text-lg font-medium text-black">
           I have always held a passion for STEM since with the more challenges I
