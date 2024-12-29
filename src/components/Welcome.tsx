@@ -3,17 +3,18 @@ const Welcome = () => {
     <div className="absolute left-52 top-32 flex flex-col">
       <div className="flex flex-row gap-4">
         <p className="font-mono text-4xl font-semibold text-black">
-          Welcome to the
+          Hello! I'm Rebecca, an
         </p>
         <p className="font-mono text-4xl font-semibold text-web-purple-2">
-          Purple Serendipity !
+          aspiring CS Student !
         </p>
       </div>
 
       <p className="relative top-7 max-w-2xl font-mono text-lg font-semibold text-black">
-        you stumble upon this comforting space, perhaps by an occurrence... or a
-        development of events by chance... may it be one of happiness and
-        benefits.
+        I stumbled upon this comforting space, perhaps by an occurrence... or a
+        development of events by chance... but I believe it is one with
+        longevity of happiness and benefits as I explore my future through
+        computer science.
       </p>
     </div>
   );

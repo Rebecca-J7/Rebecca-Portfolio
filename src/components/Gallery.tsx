@@ -10,7 +10,7 @@ const Gallery = () => {
         <img
           src="/YouTubeChannel.png"
           alt="YouTube Channel"
-          className="h-[320px] w-[550px] object-contain"
+          className="h-[300px] w-[547px] rounded-md border-2 border-web-purple-2 object-contain"
         />
         <p className="flex max-w-xs items-center font-mono text-base font-normal text-black">
           I started a YouTube channel in 2024 to vlog my experiences from a
