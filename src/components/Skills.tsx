@@ -1,6 +1,6 @@
 const Skills = () => {
   return (
-    <div className="absolute left-52 top-[1800px] flex flex-col gap-3">
+    <div className="absolute left-52 top-[1750px] flex flex-col gap-3">
       <p className="font-mono text-4xl font-semibold text-web-purple-2">
         Skills
       </p>
