@@ -11,7 +11,7 @@
     "check": "npx prettier --check .",
     "eslint": "npx eslint -c eslint.config.mjs",
     "prepare": "husky install",
-    "predeploy": "npm run build",
+    "predeploy": "next build && next export",
     "deploy": "gh-pages -d build"
   },
   "dependencies": {
