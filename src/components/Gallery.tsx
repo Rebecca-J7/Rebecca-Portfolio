@@ -1,6 +1,6 @@
 const Gallery = () => {
   return (
-    <div className="absolute left-52 top-[3120px]">
+    <div id="gallery" className="absolute left-52 top-[3090px]">
       <p className="font-mono text-4xl font-semibold text-web-purple-2">
         Gallery
       </p>
