@@ -1,6 +1,9 @@
 const Skills = () => {
   return (
-    <div className="absolute left-52 top-[1750px] flex flex-col gap-3">
+    <div
+      id="skills"
+      className="absolute left-52 top-[1720px] flex flex-col gap-3"
+    >
       <p className="font-mono text-4xl font-semibold text-web-purple-2">
         Skills
       </p>
@@ -10,7 +13,7 @@ const Skills = () => {
         <img
           src="/c-logo.png"
           alt="C++ Logo"
-          className="h-[60px] w-[60px] transform object-cover transition-transform duration-300 hover:scale-110"
+          className="h-[60px] w-[60px] transform object-contain transition-transform duration-300 hover:scale-110"
         />
         <img
           src="/icons8-html-69.png"
@@ -35,7 +38,7 @@ const Skills = () => {
         <img
           src="/tailwind-css.svg"
           alt="Tailwind CSS Logo"
-          className="h-[60px] w-[60px] transform object-cover transition-transform duration-300 hover:scale-110"
+          className="h-[60px] w-[60px] transform object-contain transition-transform duration-300 hover:scale-110"
         />
         <img
           src="/file-type-typescript-official.svg"
@@ -55,7 +58,7 @@ const Skills = () => {
         <img
           src="/figma-logo-vector.svg"
           alt="Figma Logo"
-          className="h-[60px] w-[60px] transform object-cover transition-transform duration-300 hover:scale-110"
+          className="h-[60px] w-[60px] transform object-contain transition-transform duration-300 hover:scale-110"
         />
       </div>
 

@@ -50,7 +50,7 @@ const Project = () => {
   const project = projects[currentProject];
 
   return (
-    <div className="absolute left-52 top-[2550px]">
+    <div id="projects" className="absolute left-52 top-[2510px]">
       <p className="font-mono text-4xl font-semibold text-web-purple-2">
         Projects
       </p>
@@ -98,7 +98,7 @@ const Project = () => {
           <div className="flex flex-col gap-5">
             <div className="relative left-5 top-5 flex flex-row gap-7">
               <div
-                className={`flex h-[60px] w-[100px] items-center rounded-lg border-2 border-gray-500 bg-black shadow-md hover:shadow-white ${
+                className={`flex h-[60px] w-[100px] cursor-pointer items-center rounded-lg border-2 border-gray-500 bg-black shadow-md hover:shadow-white ${
                   currentProject === "playlistOrganizer" ? "bg-slate-800" : ""
                 }`}
                 onClick={() => setCurrentProject("playlistOrganizer")}
@@ -109,7 +109,7 @@ const Project = () => {
               </div>
 
               <div
-                className={`flex h-[60px] w-[100px] items-center rounded-lg border-2 border-gray-500 bg-black shadow-md hover:shadow-white ${
+                className={`flex h-[60px] w-[100px] cursor-pointer items-center rounded-lg border-2 border-gray-500 bg-black shadow-md hover:shadow-white ${
                   currentProject === "betaAlphaPsi" ? "bg-slate-800" : ""
                 }`}
                 onClick={() => setCurrentProject("betaAlphaPsi")}
@@ -122,7 +122,7 @@ const Project = () => {
 
             <div className="relative left-5 top-5 flex flex-row gap-7">
               <div
-                className={`flex h-[60px] w-[100px] items-center rounded-lg border-2 border-gray-500 bg-black shadow-md hover:shadow-white ${
+                className={`flex h-[60px] w-[100px] cursor-pointer items-center rounded-lg border-2 border-gray-500 bg-black shadow-md hover:shadow-white ${
                   currentProject === "spaceSweeper" ? "bg-slate-800" : ""
                 }`}
                 onClick={() => setCurrentProject("spaceSweeper")}
@@ -132,7 +132,7 @@ const Project = () => {
                 </p>
               </div>
 
-              <div className="flex h-[60px] w-[100px] items-center rounded-lg border-2 border-gray-500 bg-black shadow-md hover:shadow-white">
+              <div className="flex h-[60px] w-[100px] cursor-pointer items-center rounded-lg border-2 border-gray-500 bg-black shadow-md hover:shadow-white">
                 <p className="relative mx-auto font-mono text-xs font-normal text-white">
                   More to Come
                 </p>

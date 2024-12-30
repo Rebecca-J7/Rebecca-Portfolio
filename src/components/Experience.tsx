@@ -1,6 +1,9 @@
 const Experience = () => {
   return (
-    <div className="absolute left-52 top-[2030px] flex flex-col gap-3">
+    <div
+      id="experience"
+      className="absolute left-52 top-[1990px] flex flex-col gap-3"
+    >
       <p className="font-mono text-4xl font-semibold text-web-purple-2">
         Experience
       </p>
@@ -42,7 +45,7 @@ const Experience = () => {
           </div>
         </div>
 
-        <div className="h-[370px] w-[270px] rounded-2xl border-2 border-web-purple-2 bg-white shadow shadow-web-purple-2 hover:shadow-lg">
+        <div className="h-[370px] w-[270px] rounded-2xl border-2 border-web-purple-2 bg-white shadow shadow-web-purple-2 hover:shadow-2xl">
           <div className="relative left-4 top-3 flex flex-row gap-2">
             <div className="h-[15px] w-[15px] rounded-full bg-web-purple-3"></div>
             <div className="h-[15px] w-[15px] rounded-full bg-web-purple-1"></div>
@@ -82,7 +85,7 @@ const Experience = () => {
           </div>
         </div>
 
-        <div className="h-[370px] w-[270px] rounded-2xl border-2 border-web-purple-2 bg-white shadow shadow-web-purple-2 hover:shadow-lg">
+        <div className="h-[370px] w-[270px] rounded-2xl border-2 border-web-purple-2 bg-white shadow shadow-web-purple-2 hover:shadow-2xl">
           <div className="relative left-4 top-3 flex flex-row gap-2">
             <div className="h-[15px] w-[15px] rounded-full bg-web-purple-3"></div>
             <div className="h-[15px] w-[15px] rounded-full bg-web-purple-1"></div>

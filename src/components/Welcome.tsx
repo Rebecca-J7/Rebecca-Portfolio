@@ -1,6 +1,6 @@
 const Welcome = () => {
   return (
-    <div className="absolute left-52 top-32 flex flex-col">
+    <div id="introduction" className="absolute left-52 top-20 flex flex-col">
       <div className="flex flex-row gap-4">
         <p className="font-mono text-4xl font-semibold text-black">
           Hello! I'm Rebecca, an
