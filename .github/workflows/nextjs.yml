@@ -65,9 +65,6 @@ jobs:
       - name: Build with Next.js
         run: npm run build
 
-      - name: Export Static Files
-        run: npm run export
-
       - name: touch
         run: touch ./.nojekyll
 
