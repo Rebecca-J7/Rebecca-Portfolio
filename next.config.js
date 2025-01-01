@@ -9,8 +9,8 @@ const nextConfig = {
     path: "",
     unoptimized: true,
   },
-  basePath: "/Rebecca-Portfolio",
-  assetPrefix: "/Rebecca-Portfolio/",
+  basePath: "",
+  assetPrefix: "",
 };
 
 module.exports = nextConfig;
