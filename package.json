@@ -1,5 +1,4 @@
 {
-  "homepage": "https://rebeccaj7.github.io/rebecca-portfolio",
   "name": "rebecca-portfolio",
   "version": "0.1.0",
   "private": true,
@@ -10,9 +9,7 @@
     "format": "npx prettier --write .",
     "check": "npx prettier --check .",
     "eslint": "npx eslint -c eslint.config.mjs",
-    "prepare": "husky install",
-    "predeploy": "next build && next export",
-    "deploy": "gh-pages -d build"
+    "prepare": "husky install"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.7.2",
