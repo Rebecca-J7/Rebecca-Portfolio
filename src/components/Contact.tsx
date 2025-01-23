@@ -13,7 +13,7 @@ const Contact = () => {
         </div>
       </div>
 
-      <div className="h-[150px] w-[220px] content-center rounded-md border-2 border-web-purple-2 bg-web-purple-1 shadow-web-purple-2 shadow-xl">
+      <div className="h-[150px] w-[220px] content-center rounded-md border-2 border-web-purple-2 bg-web-purple-1 shadow-xl shadow-web-purple-2">
         <div className="relative left-4 flex flex-col gap-3">
           <div className="flex flex-row gap-2">
             <img

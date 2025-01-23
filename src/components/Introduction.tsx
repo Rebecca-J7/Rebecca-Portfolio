@@ -103,7 +103,7 @@ const Introduction = () => {
         </div>
       </div>
 
-      <div className="relative right-3 flex h-[290px] w-[620px] items-center justify-center rounded-md border-2 border-web-purple-2 bg-web-purple-1 shadow-web-purple-2 shadow-xl">
+      <div className="relative right-3 flex h-[290px] w-[620px] items-center justify-center rounded-md border-2 border-web-purple-2 bg-web-purple-1 shadow-xl shadow-web-purple-2">
         <div className="flex w-5/6 flex-row gap-10">
           <img
             src="BCOE-Photo.jpg"
