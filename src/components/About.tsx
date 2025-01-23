@@ -61,22 +61,22 @@ const About = () => {
       </div>
       <div className="relative right-16 top-32 flex flex-col gap-4">
         <img
-          src="/About1.jpg"
+          src="About1.jpg"
           alt="About1 Photo"
           className="h-[200px] w-[150px] object-contain"
         />
         <img
-          src="/About2.jpg"
+          src="About2.jpg"
           alt="About2 Photo"
           className="h-[200px] w-[150px] object-cover"
         />
         <img
-          src="/About3.jpg"
+          src="About3.jpg"
           alt="About3 Photo"
           className="h-[150px] w-[200px] object-contain"
         />
         <img
-          src="/About4.jpg"
+          src="About4.jpg"
           alt="About4 Photo"
           className="h-[200px] w-[150px] object-contain"
         />

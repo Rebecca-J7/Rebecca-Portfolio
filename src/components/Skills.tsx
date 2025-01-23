@@ -11,52 +11,52 @@ const Skills = () => {
 
       <div className="flex flex-row gap-3">
         <img
-          src="/c-logo.png"
+          src="c-logo.png"
           alt="C++ Logo"
           className="h-[60px] w-[60px] transform object-contain transition-transform duration-300 hover:scale-110"
         />
         <img
-          src="/icons8-html-69.png"
+          src="icons8-html-69.png"
           alt="HTML Logo"
           className="h-[60px] w-[60px] transform object-cover transition-transform duration-300 hover:scale-110"
         />
         <img
-          src="/file-type-css.svg"
+          src="file-type-css.svg"
           alt="CSS Logo"
           className="h-[60px] w-[60px] transform object-cover transition-transform duration-300 hover:scale-110"
         />
         <img
-          src="/file-type-reactjs.svg"
+          src="file-type-reactjs.svg"
           alt="Reactjs Logo"
           className="h-[60px] w-[60px] transform object-cover transition-transform duration-300 hover:scale-110"
         />
         <img
-          src="/nextjs.svg"
+          src="nextjs.svg"
           alt="Nextjs Logo"
           className="h-[60px] w-[60px] transform object-cover transition-transform duration-300 hover:scale-110"
         />
         <img
-          src="/tailwind-css.svg"
+          src="tailwind-css.svg"
           alt="Tailwind CSS Logo"
           className="h-[60px] w-[60px] transform object-contain transition-transform duration-300 hover:scale-110"
         />
         <img
-          src="/file-type-typescript-official.svg"
+          src="file-type-typescript-official.svg"
           alt="TypeScript Logo"
           className="h-[60px] w-[60px] transform object-cover transition-transform duration-300 hover:scale-110"
         />
         <img
-          src="/icons8-git-90.png"
+          src="icons8-git-90.png"
           alt="Git Logo"
           className="h-[60px] w-[60px] transform object-cover transition-transform duration-300 hover:scale-110"
         />
         <img
-          src="/icons8-github-80.png"
+          src="icons8-github-80.png"
           alt="GitHub Logo"
           className="h-[60px] w-[60px] transform object-cover transition-transform duration-300 hover:scale-110"
         />
         <img
-          src="/figma-logo-vector.svg"
+          src="figma-logo-vector.svg"
           alt="Figma Logo"
           className="h-[60px] w-[60px] transform object-contain transition-transform duration-300 hover:scale-110"
         />

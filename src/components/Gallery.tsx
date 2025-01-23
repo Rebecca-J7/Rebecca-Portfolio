@@ -8,7 +8,7 @@ const Gallery = () => {
 
       <div className="relative top-2 flex flex-row gap-4">
         <img
-          src="/YouTubeChannel.png"
+          src="YouTubeChannel.png"
           alt="YouTube Channel"
           className="h-[300px] w-[547px] rounded-md border-2 border-web-purple-2 object-contain"
         />

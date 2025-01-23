@@ -5,7 +5,7 @@ const Contact = () => {
       <div className="flex h-[40px] w-[170px] items-center justify-center rounded-md bg-web-purple-2">
         <div className="flex flex-row gap-4">
           <img
-            src="/icons8-contact-24.png"
+            src="icons8-contact-24.png"
             alt="Contact Logo"
             className="h-[30px] w-[30px] object-contain"
           />
@@ -13,13 +13,13 @@ const Contact = () => {
         </div>
       </div>
 
-      <div className="h-[150px] w-[220px] content-center rounded-md border-2 border-web-purple-2 bg-web-purple-1">
+      <div className="h-[150px] w-[220px] content-center rounded-md border-2 border-web-purple-2 bg-web-purple-1 shadow-web-purple-2 shadow-xl">
         <div className="relative left-4 flex flex-col gap-3">
           <div className="flex flex-row gap-2">
             <img
-              src="/icons8-email-50.png"
+              src="icons8-email-50.png"
               alt="Email Logo"
-              className="h-[25px] w-[25px] object-contain"
+              className="h-[24px] w-[24px] object-contain"
             />
             <Link href="mailto:rjennings0007@gmail.com">
               <p className="relative top-1 font-mono text-xs font-semibold text-black hover:text-web-purple-2">
@@ -30,7 +30,7 @@ const Contact = () => {
 
           <div className="flex flex-row gap-2">
             <img
-              src="/icons8-linkedin-50.png"
+              src="icons8-linkedin-50.png"
               alt="LinkedIn Logo"
               className="h-[25px] w-[25px] object-contain"
             />
@@ -43,9 +43,9 @@ const Contact = () => {
 
           <div className="flex flex-row gap-2">
             <img
-              src="/icons8-github-50.png"
+              src="icons8-github-80.png"
               alt="GitHub Logo"
-              className="h-[25px] w-[25px] object-contain"
+              className="h-[27px] w-[27px] object-contain"
             />
             <Link href="https://github.com/Rebecca-J7">
               <p className="relative top-1 font-mono text-xs font-semibold text-black hover:text-web-purple-2">
@@ -56,9 +56,9 @@ const Contact = () => {
 
           <div className="flex flex-row gap-2">
             <img
-              src="/icons8-resume-24.png"
+              src="icons8-resume-24.png"
               alt="Resume Logo"
-              className="h-[26px] w-[26px] object-contain"
+              className="h-[27px] w-[27px] object-contain"
             />
             <Link href="/CS Resume.pdf">
               <p className="relative top-1 font-mono text-xs font-semibold text-black hover:text-web-purple-2">

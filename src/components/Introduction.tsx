@@ -31,7 +31,7 @@ const Introduction = () => {
           onClick={() => setActiveTab("heart")}
         >
           <img
-            src="/icons8-heart-50.png"
+            src="icons8-heart-50.png"
             alt="Heart Logo"
             className="h-[30px] w-[30px] object-contain"
           />
@@ -46,7 +46,7 @@ const Introduction = () => {
           onClick={() => setActiveTab("laptop")}
         >
           <img
-            src="/icons8-laptop-50.png"
+            src="icons8-laptop-50.png"
             alt="Laptop Logo"
             className="h-[30px] w-[30px] object-contain"
           />
@@ -61,7 +61,7 @@ const Introduction = () => {
           onClick={() => setActiveTab("headphones")}
         >
           <img
-            src="/icons8-headphones-24.png"
+            src="icons8-headphones-24.png"
             alt="Headphones Logo"
             className="h-[30px] w-[30px] object-contain"
           />
@@ -76,12 +76,12 @@ const Introduction = () => {
           onClick={() => setActiveTab("cat")}
         >
           <img
-            src="/icons8-cat-30.png"
+            src="icons8-cat-30.png"
             alt="Cat Logo"
             className="h-[30px] w-[30px] object-contain"
           />
           <img
-            src="/icons8-bird-48.png"
+            src="icons8-bird-48.png"
             alt="Bird Logo"
             className="h-[25px] w-[25px] object-contain"
           />
@@ -96,17 +96,17 @@ const Introduction = () => {
           onClick={() => setActiveTab("journal")}
         >
           <img
-            src="/icons8-journal-30.png"
+            src="icons8-journal-30.png"
             alt="Journal Logo"
             className="h-[30px] w-[30px] object-contain"
           />
         </div>
       </div>
 
-      <div className="relative right-3 flex h-[290px] w-[620px] items-center justify-center rounded-md border-2 border-web-purple-2 bg-web-purple-1">
+      <div className="relative right-3 flex h-[290px] w-[620px] items-center justify-center rounded-md border-2 border-web-purple-2 bg-web-purple-1 shadow-web-purple-2 shadow-xl">
         <div className="flex w-5/6 flex-row gap-10">
           <img
-            src="/BCOE-Photo.jpg"
+            src="BCOE-Photo.jpg"
             alt="BCOE Photo"
             className="h-60 w-40 rounded-md border-2 border-web-purple-2"
           />

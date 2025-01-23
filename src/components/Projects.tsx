@@ -17,7 +17,7 @@ const Project = () => {
         "Held sprint meetings 2 to 3 times a week to review and assigns issues, track progress, and creates tests for the project.",
         "Attended 4 scrum meetings to review progress, receive feedback, and make appropriate modifications to our diagrams and code.",
       ],
-      images: ["/Playlist1.png", "/Playlist2.png"],
+      images: ["Playlist1.png", "Playlist2.png"],
     },
 
     betaAlphaPsi: {
@@ -28,7 +28,7 @@ const Project = () => {
         "Assigned 1 to 2 tasks each week to code components such as buttons, linked objects, page layouts, text layouts, and more.",
         "Navigated Figma to align the website layout to the design, learned CSS features to create aligned text/images/backgrounds, and fixed responsiveness issues for various sized screens.",
       ],
-      images: ["/BAP1.png", "/BAP3.png"],
+      images: ["BAP1.png", "BAP3.png"],
     },
 
     spaceSweeper: {
@@ -40,7 +40,7 @@ const Project = () => {
         "Aimed to meet hardware, sustainability, and theme categories.",
         "Learned how to use an Arduino kit to wire and code with C++ syntax for the motor and motion sensor.",
       ],
-      images: ["/SpaceSweeper2.jpg", "/SpaceSweeper3.jpg"],
+      images: ["SpaceSweeper2.jpg", "SpaceSweeper3.jpg"],
     },
   };
 

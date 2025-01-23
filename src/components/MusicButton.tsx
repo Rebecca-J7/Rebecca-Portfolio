@@ -47,7 +47,7 @@ const MusicButton: React.FC = () => {
         lofi serendipity
       </p>
 
-      <audio ref={audioRef} src="/bts-serendipity-lofi.mp3" />
+      <audio ref={audioRef} src="bts-serendipity-lofi.mp3" />
     </div>
   );
 };
