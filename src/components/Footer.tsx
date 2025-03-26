@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <div className="absolute left-52 top-[3500px]">
+    <div className="absolute left-52 top-[4150px]">
       <div className="flex flex-col gap-3">
         <div className="flex flex-row gap-7 text-xs text-web-purple-2">
           <Link href="mailto:rjennings0007@gmail.com">

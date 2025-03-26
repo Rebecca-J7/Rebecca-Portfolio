@@ -43,7 +43,7 @@ const Contact = () => {
 
           <div className="flex flex-row gap-2">
             <img
-              src="icons8-github-80.png"
+              src="icons8-github-70.png"
               alt="GitHub Logo"
               className="h-[27px] w-[27px] object-contain"
             />

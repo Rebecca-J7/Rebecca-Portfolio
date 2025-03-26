@@ -2,19 +2,17 @@ const Welcome = () => {
   return (
     <div id="introduction" className="absolute left-52 top-20 flex flex-col">
       <div className="flex flex-row gap-4">
-        <p className="font-mono text-4xl font-semibold text-black">
-          Hello! I'm Rebecca, an
-        </p>
-        <p className="font-mono text-4xl font-semibold text-web-purple-2">
-          aspiring CS Student !
-        </p>
+        <div className="flex">
+          <p className="animate-typing overflow-hidden whitespace-nowrap border-r-2 border-r-black pr-2 font-mono text-4xl font-semibold text-black">
+            Hello! I'm Rebecca, an{" "}
+            <span className="text-web-purple-2">aspiring CS Student!</span>
+          </p>
+        </div>
       </div>
 
       <p className="relative top-7 max-w-2xl font-mono text-lg font-semibold text-black">
-        I stumbled upon this comforting space, perhaps by an occurrence... or a
-        development of events by chance... but I believe it is one with
-        longevity of happiness and benefits as I explore my future through
-        computer science.
+        May this space be one of experience, growth, and reflection as I explore
+        my passion through computer science.
       </p>
     </div>
   );

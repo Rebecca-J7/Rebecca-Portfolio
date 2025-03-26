@@ -13,14 +13,14 @@ const Introduction = () => {
     laptop:
       "I developed a passion for computer science as I researched and observed impacts of the digital world. I want to branch my career into cybersecurity so I may bridge the gaps between ethics and technology.",
     headphones:
-      "I delved into my love for music when I learned to play the drum set and found K-pop! Through playing and many genres of music I find comfort and motivation in making playlists and analyzing the meaning of songs.",
+      "I delved into my love for music when I learned to play the drums and found K-pop! Through playing and many genres of music I find comfort and motivation in making playlists and analyzing the meaning of songs.",
     cat: "I have two amazing pets, Clipper and Trixie! Clipper is very chipper and a fun bundle of feathers who loves to fly around and be involved! As for Trixie, she is rambunctious and sassy, loving zoomies and nightly cuddles!",
     journal:
       "Through journaling I am able to express my thoughts, feelings, reflections, and experiences. Journaling also provides a medium for me to discover my creativity and cherish the memories I have throughout the year.",
   };
 
   return (
-    <div className="absolute left-52 top-80 flex flex-col">
+    <div className="absolute left-52 top-72 flex flex-col">
       <div className="flex flex-row gap-5 rounded-md">
         <div
           className={`flex h-[40px] w-[100px] items-center justify-center rounded-md border-2 border-web-purple-2 ${
@@ -103,7 +103,7 @@ const Introduction = () => {
         </div>
       </div>
 
-      <div className="relative right-3 flex h-[290px] w-[620px] items-center justify-center rounded-md border-2 border-web-purple-2 bg-web-purple-1 shadow-xl shadow-web-purple-2">
+      <div className="relative right-3 flex h-[330px] w-[620px] items-center justify-center rounded-md border-2 border-web-purple-2 bg-web-purple-1 shadow-xl shadow-web-purple-2">
         <div className="flex w-5/6 flex-row gap-10">
           <img
             src="BCOE-Photo.jpg"
