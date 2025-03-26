@@ -2,7 +2,11 @@
 import { useState } from "react";
 
 const Project = () => {
-  type ProjectKey = "playlistOrganizer" | "betaAlphaPsi" | "spaceSweeper";
+  type ProjectKey =
+    | "playlistOrganizer"
+    | "betaAlphaPsi"
+    | "spaceSweeper"
+    | "plantBodyguard";
 
   const projects: Record<
     ProjectKey,
@@ -42,6 +46,16 @@ const Project = () => {
       ],
       images: ["SpaceSweeper2.jpg", "SpaceSweeper3.jpg"],
     },
+    plantBodyguard: {
+      title: "Plant Bodyguard (RoseHack 2025)",
+      description: [
+        "Idea: Our Plant Bodyguard is designed to monitor the conditions around plants, ensuring they are kept in optimal environments by providing users with real-time feedback on environmental conditions.",
+        "Goal: Build a structure that holds a plant in the center with surrounding components: light sensor - green LED dims = not enough light & shines = enough light, temperature sensor (value displays in IDE), and movement sensor where buzzer emits within range.",
+        "Won first place overall for RoseHack!",
+        "Learned how to code for different components of an Arduino (photoresistor, DHT11 (Temperature Sensor), passive buzzer, HC SR04 (Ultrasonic Sensor))",
+      ],
+      images: ["Plantbodyguard1.jpg", "Plantbodyguard2.jpg"],
+    },
   };
 
   const [currentProject, setCurrentProject] =
@@ -55,12 +69,18 @@ const Project = () => {
         Projects
       </p>
       <div className="h-0.5 w-[900px] rounded-sm bg-black"></div>
-      <div className="relative top-7 flex flex-row gap-7">
-        <div className="flex h-[420px] w-[750px] items-center justify-center bg-black">
-          <div className="relative h-[370px] w-[725px] bg-web-purple-1">
+      <div className="relative top-7 flex flex-col">
+        <div className="flex h-[480px] w-[900px] items-center justify-center bg-black">
+          <div className="relative h-[400px] w-[860px] bg-web-purple-1">
             <div className="absolute left-4 top-16 flex flex-col">
-              <div className="h-[15px] w-[410px] bg-web-purple-2"></div>
-              <div className="relative h-[230px] w-[410px] border-2 border-web-purple-2 bg-white">
+              <div className="relative h-[20px] w-[430px] bg-web-purple-2">
+                <div className="absolute right-4 flex flex-row items-center gap-4">
+                  <div className="h-[2px] w-[10px] bg-white"></div>
+                  <div className="h-[9px] w-[9px] bg-white"></div>
+                  <div className="font-mono font-bold text-white"> x </div>
+                </div>
+              </div>
+              <div className="relative h-[240px] w-[430px] border-2 border-web-purple-2 bg-white">
                 <p className="absolute left-3 top-1 font-mono text-base font-semibold text-black">
                   {project.title}
                 </p>
@@ -71,71 +91,88 @@ const Project = () => {
                 </ul>
               </div>
             </div>
-            <div className="absolute right-4 top-7 flex flex-col">
-              <div className="h-[15px] w-[250px] bg-web-purple-2"></div>
-              <div className="flex h-[155px] w-[250px] items-center justify-center border-2 border-web-purple-2 bg-white">
+            <div className="absolute right-24 top-6 flex flex-col">
+              <div className="relative h-[20px] w-[280px] bg-web-purple-2"></div>
+              <div className="absolute right-4 flex flex-row items-center gap-4">
+                <div className="h-[2px] w-[10px] bg-white"></div>
+                <div className="h-[9px] w-[9px] bg-white"></div>
+                <div className="font-mono font-bold text-white"> x </div>
+              </div>
+              <div className="flex h-[170px] w-[280px] items-center justify-center border-2 border-web-purple-2 bg-white">
                 <img
                   src={project.images[0]}
                   alt={`${project.title} Image 1`}
-                  className="h-[150px] w-[240px] transform object-contain"
+                  className="h-[150px] w-[250px] transform object-contain object-center"
                 />
               </div>
             </div>
-            <div className="absolute right-8 top-44 flex flex-col">
-              <div className="h-[15px] w-[250px] bg-web-purple-2"></div>
-              <div className="h-[155px] w-[250px] border-2 border-web-purple-2 bg-white">
+            <div className="absolute right-8 top-48 flex flex-col">
+              <div className="relative h-[20px] w-[280px] bg-web-purple-2"></div>
+              <div className="absolute right-4 flex flex-row items-center gap-4">
+                <div className="h-[2px] w-[10px] bg-white"></div>
+                <div className="h-[9px] w-[9px] bg-white"></div>
+                <div className="font-mono font-bold text-white"> x </div>
+              </div>
+              <div className="h-[170px] w-[280px] items-center justify-center border-2 border-web-purple-2 bg-white">
                 <img
                   src={project.images[1]}
                   alt={`${project.title} Image 2`}
-                  className="h-[150px] w-[240px] transform object-contain"
+                  className="h-[150px] w-[250px] transform object-contain object-center"
                 />
               </div>
             </div>
           </div>
         </div>
 
-        <div className="h-[300px] w-[270px] rounded-md border-2 border-black bg-zinc-800">
-          <div className="flex flex-col gap-5">
-            <div className="relative left-5 top-5 flex flex-row gap-7">
-              <div
-                className={`flex h-[60px] w-[100px] cursor-pointer items-center rounded-lg border-2 border-gray-500 bg-black shadow-md hover:shadow-white ${
-                  currentProject === "playlistOrganizer" ? "bg-slate-800" : ""
-                }`}
-                onClick={() => setCurrentProject("playlistOrganizer")}
-              >
-                <p className="relative left-4 font-mono text-xs font-normal text-white">
-                  Playlist Organizer
-                </p>
-              </div>
-
-              <div
-                className={`flex h-[60px] w-[100px] cursor-pointer items-center rounded-lg border-2 border-gray-500 bg-black shadow-md hover:shadow-white ${
-                  currentProject === "betaAlphaPsi" ? "bg-slate-800" : ""
-                }`}
-                onClick={() => setCurrentProject("betaAlphaPsi")}
-              >
-                <p className="relative left-3 max-w-[80px] font-mono text-xs font-normal text-white">
-                  Beta Alpha Psi Website
-                </p>
-              </div>
+        <div className="relative h-[300px] w-[900px] rounded-md border-2 border-black bg-zinc-800">
+          <div className="absolute left-10 mt-3 flex flex-row gap-4">
+            <div
+              className={`flex h-[60px] w-[100px] cursor-pointer items-center rounded-lg border-2 border-gray-500 bg-black shadow-md hover:shadow-white ${
+                currentProject === "playlistOrganizer" ? "bg-slate-800" : ""
+              }`}
+              onClick={() => setCurrentProject("playlistOrganizer")}
+            >
+              <p className="relative left-4 font-mono text-xs font-normal text-white">
+                Playlist Organizer
+              </p>
             </div>
 
-            <div className="relative left-5 top-5 flex flex-row gap-7">
-              <div
-                className={`flex h-[60px] w-[100px] cursor-pointer items-center rounded-lg border-2 border-gray-500 bg-black shadow-md hover:shadow-white ${
-                  currentProject === "spaceSweeper" ? "bg-slate-800" : ""
-                }`}
-                onClick={() => setCurrentProject("spaceSweeper")}
-              >
-                <p className="relative mx-auto font-mono text-xs font-normal text-white">
-                  Space Sweeper
-                </p>
-              </div>
+            <div
+              className={`flex h-[60px] w-[100px] cursor-pointer items-center rounded-lg border-2 border-gray-500 bg-black shadow-md hover:shadow-white ${
+                currentProject === "betaAlphaPsi" ? "bg-slate-800" : ""
+              }`}
+              onClick={() => setCurrentProject("betaAlphaPsi")}
+            >
+              <p className="relative left-3 max-w-[80px] font-mono text-xs font-normal text-white">
+                Beta Alpha Psi Website
+              </p>
+            </div>
 
-              <div className="flex h-[60px] w-[100px] cursor-pointer items-center rounded-lg border-2 border-gray-500 bg-black shadow-md hover:shadow-white">
-                <p className="relative mx-auto font-mono text-xs font-normal text-white">
-                  More to Come
-                </p>
+            <div
+              className={`flex h-[60px] w-[100px] cursor-pointer items-center rounded-lg border-2 border-gray-500 bg-black shadow-md hover:shadow-white ${
+                currentProject === "spaceSweeper" ? "bg-slate-800" : ""
+              }`}
+              onClick={() => setCurrentProject("spaceSweeper")}
+            >
+              <p className="relative mx-auto font-mono text-xs font-normal text-white">
+                Space Sweeper
+              </p>
+            </div>
+
+            <div
+              className={`flex h-[60px] w-[100px] cursor-pointer items-center rounded-lg border-2 border-gray-500 bg-black shadow-md hover:shadow-white ${
+                currentProject === "plantBodyguard" ? "bg-slate-800" : ""
+              }`}
+              onClick={() => setCurrentProject("plantBodyguard")}
+            >
+              <p className="relative left-5 mx-auto font-mono text-xs font-normal text-white">
+                Plant Bodyguard
+              </p>
+            </div>
+
+            <div className="flex h-[60px] w-[100px] cursor-pointer items-center rounded-lg border-2 border-gray-500 bg-black shadow-md hover:shadow-white">
+              <div className="relative left-5 mx-auto font-mono text-xs font-normal text-white">
+                More To Come...
               </div>
             </div>
           </div>

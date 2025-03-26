@@ -1,32 +1,29 @@
 const Skills = () => {
   return (
-    <div
-      id="skills"
-      className="absolute left-52 top-[1720px] flex flex-col gap-3"
-    >
+    <div id="skills" className="absolute left-52 top-[1720px] flex flex-col">
       <p className="font-mono text-4xl font-semibold text-web-purple-2">
         Skills
       </p>
       <div className="h-0.5 w-[900px] rounded-sm bg-black"></div>
 
-      <div className="flex flex-row gap-3">
+      <div className="mt-6 flex flex-row gap-3">
         <img
-          src="c-logo.png"
+          src="icons8-c-70.png"
           alt="C++ Logo"
           className="h-[60px] w-[60px] transform object-contain transition-transform duration-300 hover:scale-110"
         />
         <img
-          src="icons8-html-69.png"
+          src="icons8-html-5-70.png"
           alt="HTML Logo"
           className="h-[60px] w-[60px] transform object-cover transition-transform duration-300 hover:scale-110"
         />
         <img
-          src="file-type-css.svg"
+          src="icons8-css3-70.png"
           alt="CSS Logo"
           className="h-[60px] w-[60px] transform object-cover transition-transform duration-300 hover:scale-110"
         />
         <img
-          src="file-type-reactjs.svg"
+          src="icons8-react-70.png"
           alt="Reactjs Logo"
           className="h-[60px] w-[60px] transform object-cover transition-transform duration-300 hover:scale-110"
         />
@@ -36,22 +33,22 @@ const Skills = () => {
           className="h-[60px] w-[60px] transform object-cover transition-transform duration-300 hover:scale-110"
         />
         <img
-          src="tailwind-css.svg"
+          src="icons8-tailwindcss-70.png"
           alt="Tailwind CSS Logo"
           className="h-[60px] w-[60px] transform object-contain transition-transform duration-300 hover:scale-110"
         />
         <img
-          src="file-type-typescript-official.svg"
+          src="icons8-typescript-70.png"
           alt="TypeScript Logo"
           className="h-[60px] w-[60px] transform object-cover transition-transform duration-300 hover:scale-110"
         />
         <img
-          src="icons8-git-90.png"
+          src="icons8-git-70.png"
           alt="Git Logo"
           className="h-[60px] w-[60px] transform object-cover transition-transform duration-300 hover:scale-110"
         />
         <img
-          src="icons8-github-80.png"
+          src="icons8-github-70.png"
           alt="GitHub Logo"
           className="h-[60px] w-[60px] transform object-cover transition-transform duration-300 hover:scale-110"
         />

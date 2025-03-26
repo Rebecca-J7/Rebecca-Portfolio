@@ -12,7 +12,7 @@ import Footer from "@/components/Footer";
 
 const Home = () => {
   return (
-    <div className="flex min-h-[530vh] w-full flex-col items-center justify-center space-y-16">
+    <div className="flex min-h-[630vh] w-full flex-col items-center justify-center space-y-16">
       <Header />
       <Welcome />
       <MusicButton />

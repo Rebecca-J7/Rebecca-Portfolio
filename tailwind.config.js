@@ -23,14 +23,24 @@ module.exports = {
           "0%": { opacity: "0", transform: "translateX(-20px)" },
           "100%": { opacity: "1", transform: "translateX(0)" },
         },
+        typing: {
+          "0%": { width: "0%" },
+          "100%": { width: "100%" },
+        },
+        blink: {
+          "50%": { borderRightColor: "transparent" },
+          "100%": { borderRightColor: "white" },
+        },
       },
       animation: {
         "fade-down": "fadeDown .7s ease-in-out",
         "fade-right": "fadeRight 0.5s ease-in-out",
+        typing: "typing 7s steps(70, end) forwards",
+        blink: "blink .7s infinite",
       },
       boxShadow: {
-        "3xl": "0px 8px 20px 8px #1C090A80;",
-        "5xl": "0px 10px 50px 30px #1C090AFC;",
+        "3xl": "0px 8px 20px 8px #1C090A80",
+        "5xl": "0px 10px 50px 30px #1C090AFC",
       },
       colors: {
         web: {
@@ -41,5 +51,6 @@ module.exports = {
       },
     },
   },
+
   plugins: [tailwindcssAnimated],
 };
