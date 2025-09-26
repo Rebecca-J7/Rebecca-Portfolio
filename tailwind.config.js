@@ -44,9 +44,11 @@ module.exports = {
       },
       colors: {
         web: {
-          "purple-1": "#B68DE2",
-          "purple-2": "#8958EA",
-          "purple-3": "#E3CBFF",
+          "purple-1": "#8958EA",
+          "purple-2": "#C7A6EB",
+          "purple-3": "#CFC1F6",
+          "purple-4": "#EFE2FE",
+
         },
       },
     },
