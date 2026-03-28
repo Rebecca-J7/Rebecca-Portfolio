@@ -3,16 +3,16 @@ import React from "react";
 import Link from "next/link";
 
 const Header = () => {
-  const scrollToSection = (sectionId: string) => {
-    const section = document.getElementById(sectionId);
-    const headerHeight = 56;
-    if (section) {
-      window.scrollTo({
-        top: section.offsetTop - headerHeight,
-        behavior: "smooth",
-      });
-    }
-  };
+  // const scrollToSection = (sectionId: string) => {
+  //   const section = document.getElementById(sectionId);
+  //   const headerHeight = 56;
+  //   if (section) {
+  //     window.scrollTo({
+  //       top: section.offsetTop - headerHeight,
+  //       behavior: "smooth",
+  //     });
+  //   }
+  // };
 
   return (
     <div className="fixed top-0 z-50 h-14 w-full bg-web-purple-2">
