@@ -48,7 +48,6 @@ module.exports = {
           "purple-2": "#C7A6EB",
           "purple-3": "#CFC1F6",
           "purple-4": "#EFE2FE",
-
         },
       },
     },
