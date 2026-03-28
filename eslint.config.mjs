@@ -5,7 +5,15 @@ import react from "eslint-plugin-react";
 import prettier from "eslint-plugin-prettier/recommended";
 import query from "@tanstack/eslint-plugin-query";
 
-export default [
+// export default defineConfig({
+//   rules: {
+//     // Note: you must disable the base rule as it can report incorrect errors
+//     "no-unused-vars": "off",
+//     "@typescript-eslint/no-unused-vars": "error"
+//   }
+// });
+
+export default[
   {
     ignores: ["dist/*"],
   },
@@ -29,6 +37,8 @@ export default [
     rules: {
       "react/react-in-jsx-scope": "off",
       "@typescript-eslint/no-unused-expressions": "off",
+      "no-unused-vars": "off",
+      "@typescript-eslint/no-unused-vars": "error"
     },
   },
 ];
