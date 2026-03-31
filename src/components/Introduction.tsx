@@ -1,5 +1,4 @@
 "use client";
-
 import { useState } from "react";
 
 type TabKey = "heart" | "laptop" | "headphones" | "cat" | "journal";
@@ -20,13 +19,13 @@ const Introduction = () => {
   };
 
   return (
-    <div className="absolute left-52 top-72 flex flex-col">
+    <div className="absolute left-52 top-96 flex flex-col">
       <div className="flex flex-row gap-5 rounded-md">
         <div
           className={`flex h-[40px] w-[100px] items-center justify-center rounded-md border-2 border-web-purple-2 ${
             activeTab === "heart"
-              ? "bg-web-purple-2"
-              : "cursor-pointer bg-web-purple-1 hover:bg-web-purple-2"
+              ? "bg-web-purple-1"
+              : "cursor-pointer bg-web-purple-2 hover:bg-web-purple-1"
           }`}
           onClick={() => setActiveTab("heart")}
         >
@@ -40,8 +39,8 @@ const Introduction = () => {
         <div
           className={`flex h-[40px] w-[100px] items-center justify-center rounded-md border-2 border-web-purple-2 ${
             activeTab === "laptop"
-              ? "bg-web-purple-2"
-              : "cursor-pointer bg-web-purple-1 hover:bg-web-purple-2"
+              ? "bg-web-purple-1"
+              : "cursor-pointer bg-web-purple-2 hover:bg-web-purple-1"
           }`}
           onClick={() => setActiveTab("laptop")}
         >
@@ -55,8 +54,8 @@ const Introduction = () => {
         <div
           className={`flex h-[40px] w-[100px] items-center justify-center rounded-md border-2 border-web-purple-2 ${
             activeTab === "headphones"
-              ? "bg-web-purple-2"
-              : "cursor-pointer bg-web-purple-1 hover:bg-web-purple-2"
+              ? "bg-web-purple-1"
+              : "cursor-pointer bg-web-purple-2 hover:bg-web-purple-1"
           }`}
           onClick={() => setActiveTab("headphones")}
         >
@@ -70,8 +69,8 @@ const Introduction = () => {
         <div
           className={`flex h-[40px] w-[100px] items-center justify-center rounded-md border-2 border-web-purple-2 ${
             activeTab === "cat"
-              ? "bg-web-purple-2"
-              : "cursor-pointer bg-web-purple-1 hover:bg-web-purple-2"
+              ? "bg-web-purple-1"
+              : "cursor-pointer bg-web-purple-2 hover:bg-web-purple-1"
           }`}
           onClick={() => setActiveTab("cat")}
         >
@@ -90,8 +89,8 @@ const Introduction = () => {
         <div
           className={`flex h-[40px] w-[100px] items-center justify-center rounded-md border-2 border-web-purple-2 ${
             activeTab === "journal"
-              ? "bg-web-purple-2"
-              : "cursor-pointer bg-web-purple-1 hover:bg-web-purple-2"
+              ? "bg-web-purple-1"
+              : "cursor-pointer bg-web-purple-2 hover:bg-web-purple-1"
           }`}
           onClick={() => setActiveTab("journal")}
         >
@@ -103,12 +102,12 @@ const Introduction = () => {
         </div>
       </div>
 
-      <div className="relative right-3 flex h-[330px] w-[620px] items-center justify-center rounded-md border-2 border-web-purple-2 bg-web-purple-1 shadow-xl shadow-web-purple-2">
+      <div className="relative right-3 flex h-[330px] w-[620px] items-center justify-center rounded-md border-2 border-web-purple-1 bg-web-purple-2 shadow-xl shadow-web-purple-2">
         <div className="flex w-5/6 flex-row gap-10">
           <img
             src="BCOE-Photo.jpg"
             alt="BCOE Photo"
-            className="h-60 w-40 rounded-md border-2 border-web-purple-2"
+            className="h-60 w-40 rounded-md border-2 border-web-purple-1"
           />
           <p className="content-center font-mono text-lg font-semibold text-black">
             {tabContent[activeTab]}

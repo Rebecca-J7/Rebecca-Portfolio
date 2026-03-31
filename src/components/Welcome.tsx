@@ -1,6 +1,6 @@
 const Welcome = () => {
   return (
-    <div id="introduction" className="absolute left-52 top-20 flex flex-col">
+    <div id="introduction" className="absolute left-52 top-44 flex flex-col">
       <div className="flex flex-row gap-4">
         <div className="flex">
           <p className="animate-typing overflow-hidden whitespace-nowrap border-r-2 border-r-black pr-2 font-mono text-4xl font-semibold text-black">
