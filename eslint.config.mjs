@@ -1,34 +1,23 @@
 import globals from "globals";
-import tseslint from "typescript-eslint";
-import react from "eslint-plugin-react";
-import query from "@tanstack/eslint-plugin-query";
-import { defineConfig } from "eslint/config";
-import nextPlugin from "@next/eslint-plugin-next";
+import tsParser from "@typescript-eslint/parser";
 
-export default defineConfig({
-  ignores: ["dist/*", ".next/", "out/", "node_modules"],
-  files: ["**/*.{js,mjs,cjs,ts,jsx,tsx}"],
-  languageOptions: { globals: { ...globals.node } },
-  plugins: {
-    react,
-    "@next/next": nextPlugin,
-    "@typescript-eslint": tseslint.plugin,
-    "@tanstack/query": query,
+export default [
+  {
+    ignores: ["dist/*", ".next/", "out/", "node_modules"],
   },
-  extends: [
-    "eslint:recommended",
-    "plugin:@typescript-eslint/recommended",
-    "plugin:react/recommended",
-    "plugin:prettier/recommended",
-    "next/core-web-vitals",
-  ],
-  rules: {
-    "react/react-in-jsx-scope": "off",
-    "@typescript-eslint/no-unused-expressions": "off",
-    "no-unused-vars": "off",
-    "@typescript-eslint/no-unused-vars": "error",
+  {
+    files: ["**/*.{js,mjs,cjs,jsx,tsx,ts}"],
+    languageOptions: {
+      parser: tsParser,
+      parserOptions: {
+        ecmaVersion: 2022,
+        sourceType: "module",
+        ecmaFeatures: { jsx: true },
+      },
+      globals: { ...globals.node, ...globals.browser },
+    },
   },
-});
+];
 
 // export default [
 //   {
