@@ -14,7 +14,7 @@ const Contact = () => {
       </div>
 
       <div className="h-[150px] w-[220px] content-center rounded-md border-2 border-web-purple-1 bg-web-purple-2 shadow-xl shadow-web-purple-2">
-        <div className="pl-4 flex flex-col gap-3">
+        <div className="flex flex-col gap-3 pl-4">
           <div className="flex flex-row gap-2">
             <img
               src="icons8-email-50.png"

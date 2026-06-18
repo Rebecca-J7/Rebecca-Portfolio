@@ -101,7 +101,7 @@ const Introduction = () => {
           />
         </div>
       </div>
-      
+
       <div className="flex h-[330px] w-[620px] items-center justify-center rounded-md border-2 border-web-purple-1 bg-web-purple-2 shadow-xl shadow-web-purple-2">
         <div className="flex w-5/6 flex-row gap-10">
           <img
