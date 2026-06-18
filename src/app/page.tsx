@@ -7,8 +7,10 @@ const Home = () => {
     <div className="flex min-h-screen w-full flex-col items-center justify-center">
       <Welcome />
       <MusicButton />
-      <Introduction />
-      <Contact />
+      <div className="mt-8 flex flex-row items-start gap-8">
+        <Introduction />
+        <Contact />
+      </div>
     </div>
   );
 };
