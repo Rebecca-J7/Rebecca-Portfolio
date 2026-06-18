@@ -1,7 +1,7 @@
 import Link from "next/link";
 const Contact = () => {
   return (
-    <div className="absolute right-72 top-96 flex flex-col">
+    <div className="mt-9 flex flex-col items-start">
       <div className="flex h-[40px] w-[170px] items-center justify-center rounded-md border-2 border-web-purple-1 bg-web-purple-2">
         <div className="flex flex-row gap-4">
           <img
@@ -14,7 +14,7 @@ const Contact = () => {
       </div>
 
       <div className="h-[150px] w-[220px] content-center rounded-md border-2 border-web-purple-1 bg-web-purple-2 shadow-xl shadow-web-purple-2">
-        <div className="relative left-4 flex flex-col gap-3">
+        <div className="pl-4 flex flex-col gap-3">
           <div className="flex flex-row gap-2">
             <img
               src="icons8-email-50.png"

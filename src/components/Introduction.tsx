@@ -19,7 +19,7 @@ const Introduction = () => {
   };
 
   return (
-    <div className="absolute left-52 top-96 flex flex-col">
+    <div className="mt-8 flex flex-col items-center">
       <div className="flex flex-row gap-5 rounded-md">
         <div
           className={`flex h-[40px] w-[100px] items-center justify-center rounded-md border-2 border-web-purple-2 ${
@@ -101,8 +101,8 @@ const Introduction = () => {
           />
         </div>
       </div>
-
-      <div className="relative right-3 flex h-[330px] w-[620px] items-center justify-center rounded-md border-2 border-web-purple-1 bg-web-purple-2 shadow-xl shadow-web-purple-2">
+      
+      <div className="flex h-[330px] w-[620px] items-center justify-center rounded-md border-2 border-web-purple-1 bg-web-purple-2 shadow-xl shadow-web-purple-2">
         <div className="flex w-5/6 flex-row gap-10">
           <img
             src="BCOE-Photo.jpg"
