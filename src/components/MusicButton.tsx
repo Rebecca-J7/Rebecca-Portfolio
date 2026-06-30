@@ -18,10 +18,10 @@ const MusicButton: React.FC = () => {
   };
 
   return (
-    <div className="absolute right-36 top-44 flex flex-row gap-5">
+    <div className="absolute right-36 top-44 flex animate-fade flex-row gap-5">
       <button
         onClick={togglePlayPause}
-        className="flex items-center justify-center rounded-full bg-web-purple-2 p-2"
+        className="flex animate-pulse items-center justify-center rounded-full bg-web-purple-2 p-2"
       >
         {!isPlaying && (
           <svg
