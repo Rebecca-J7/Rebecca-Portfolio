@@ -1,14 +1,16 @@
 const Welcome = () => {
   return (
     <div id="introduction" className="mr-24 mt-20 flex flex-col items-center">
-      <p className="animate-fade font-mono text-6xl font-semibold text-black">
+      <p className="animate-fade font-mono text-6xl font-semibold text-black hover:text-web-purple-1">
         Rebecca Jennings
       </p>
-      <p className="mt-7 max-w-2xl animate-typing overflow-hidden whitespace-nowrap font-mono text-3xl font-semibold text-black animate-delay-500">
-        Bridging the gap between ethics and
-      </p>
+      <div className="mt-7 flex items-center">
+        <p className="max-w-2xl animate-typing overflow-hidden whitespace-nowrap font-mono text-3xl font-semibold text-black animate-delay-1000">
+          Bridging the gap between ethics and
+        </p>
+      </div>
       <div className="mt-1 flex items-center gap-2">
-        <p className="max-w-2xl animate-typing overflow-hidden whitespace-nowrap font-mono text-3xl font-semibold text-black animate-delay-500">
+        <p className="max-w-2xl animate-typing overflow-hidden whitespace-nowrap font-mono text-3xl font-semibold text-black animate-delay-1000">
           technology to build innovations.
         </p>
         <img

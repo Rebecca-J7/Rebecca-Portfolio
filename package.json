@@ -6,6 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "clean:next": "node ./scripts/clean-next.js",
+    "clean:next:yes": "node ./scripts/clean-next.js --yes",
     "format": "npx prettier --write .",
     "check": "npx prettier --check .",
     "eslint": "npx eslint -c eslint.config.mjs",
