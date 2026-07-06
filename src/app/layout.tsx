@@ -8,6 +8,8 @@ export const metadata = {
     "A personal website that highlights my perspectives, goals, experience, projects, and more!",
 };
 
+import BackgroundGlow from "../components/BackgroundGlow";
+
 export default function RootLayout({
   children,
 }: {
@@ -15,9 +17,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="flex min-h-screen flex-col bg-web-purple-4">
+      <body className="relative overflow-x-hidden bg-[#121018] font-sans text-[#EDEAF6]">
+        <BackgroundGlow />
         <Header />
-        <main className="flex-1 pb-24 pt-20">{children}</main>
+        <main className="relative flex-1 pb-24 pt-20">{children}</main>
         <Footer />
       </body>
     </html>

@@ -11,7 +11,7 @@ const Contact = () => {
           <div className="flex flex-row items-center gap-6 rounded-md">
             <div className="grid h-10 w-10 place-items-center rounded-md bg-web-purple-3 bg-opacity-80">
               <img
-                src="icons8-email-50.png"
+                src="EmailLogo.png"
                 alt="Email Logo"
                 className="h-[24px] w-[24px] object-contain"
               />
@@ -26,7 +26,7 @@ const Contact = () => {
           <div className="flex flex-row items-center gap-6 rounded-md">
             <div className="grid h-10 w-10 place-items-center rounded-md bg-web-purple-3 bg-opacity-80">
               <img
-                src="icons8-linkedin-50.png"
+                src="LinkedInLogo.png"
                 alt="LinkedIn Logo"
                 className="h-[24px] w-[24px] object-contain"
               />
@@ -41,7 +41,7 @@ const Contact = () => {
           <div className="flex flex-row items-center gap-6 rounded-md">
             <div className="grid h-10 w-10 place-items-center rounded-md bg-web-purple-3 bg-opacity-80">
               <img
-                src="icons8-github-70.png"
+                src="GithubLogo.png"
                 alt="GitHub Logo"
                 className="h-[24px] w-[24px] object-contain"
               />
