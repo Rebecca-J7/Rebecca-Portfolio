@@ -14,7 +14,7 @@ const Welcome = () => {
           technology to build innovations.
         </p>
         <img
-          src="mage_mouse-pointer-fill.png"
+          src="MouseIcon.png"
           alt="Mouse Pointer"
           className="h-[45px] w-[45px] animate-bounce object-contain"
         />

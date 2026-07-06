@@ -1,3 +1,45 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@keyframes drift1 {
+  0%,
+  100% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(40px, 30px);
+  }
+}
+
+@keyframes drift2 {
+  0%,
+  100% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(-30px, -40px);
+  }
+}
+
+.animate-drift-1 {
+  animation: drift1 14s ease-in-out infinite;
+}
+
+.animate-drift-2 {
+  animation: drift2 18s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-drift-1,
+  .animate-drift-2 {
+    animation: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .background-image {
+    background-image: radial-gradient(#7c6a9c 1px, transparent 1px);
+    background-size: 28px 28px;
+  }
+}
