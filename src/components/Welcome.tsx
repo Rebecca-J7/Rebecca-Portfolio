@@ -25,7 +25,7 @@ const Welcome = () => {
         Rebecca Jennings
       </p>
 
-      <div className="mt-7 flex w-full justify-center px-4">
+      <div className="mt-12 flex w-full justify-center px-4">
         <div className="flex max-w-[90vw] items-start justify-center gap-1 sm:max-w-[34rem] md:max-w-[40rem]">
           <p className="w-full max-w-[90vw] overflow-hidden whitespace-pre-line break-words text-center font-mono text-2xl font-medium leading-relaxed text-[#C9C5D9] sm:max-w-[34rem] md:max-w-[40rem] md:text-3xl">
             {displayedText}
