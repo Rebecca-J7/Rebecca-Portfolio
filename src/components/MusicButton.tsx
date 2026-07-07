@@ -1,6 +1,6 @@
 "use client";
-import "@fortawesome/fontawesome-free/css/all.min.css";
 import React, { useState } from "react";
+import { Play, Pause } from "lucide-react";
 
 const MusicButton: React.FC = () => {
   const [isPlaying, setIsPlaying] = useState(false);
@@ -18,36 +18,18 @@ const MusicButton: React.FC = () => {
   };
 
   return (
-    <div className="absolute right-36 top-44 flex animate-fade flex-row gap-5">
+    <div className="fixed right-8 top-20 z-40 flex animate-fade items-center gap-3 rounded-full border border-[#2A2536] bg-[#1C1926]/80 px-3 py-2 backdrop-blur hover:border-[#7F77DD] hover:shadow-[0_8px_30px_-8px_#7F77DD55]">
       <button
         onClick={togglePlayPause}
-        className="flex animate-pulse items-center justify-center rounded-full bg-web-purple-2 p-2"
+        aria-label={isPlaying ? "Pause music" : "Play music"}
+        className="flex h-7 w-7 items-center justify-center rounded-full bg-[#B8A6FF]/15 text-[#B8A6FF] transition-colors hover:bg-[#B8A6FF]/25"
       >
-        {!isPlaying && (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 24 24"
-            className="h-6 w-6"
-          >
-            <path d="M8 5v14l11-7z" />
-          </svg>
-        )}
-        {isPlaying && (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 24 24"
-            className="h-6 w-6"
-          >
-            <path d="M6 6h4v12H6zm8 0h4v12h-4z" />
-          </svg>
-        )}
+        {isPlaying ? <Pause size={14} /> : <Play size={14} />}
       </button>
 
-      <p className="relative top-2 grow basis-3 font-mono text-xl font-semibold text-black">
-        lofi serendipity
-      </p>
+      <p className="font-mono text-xs text-[#9691AA]">lofi serendipity</p>
 
-      <audio ref={audioRef} src="bts-serendipity-lofi.mp3" />
+      <audio ref={audioRef} src="/btsserendipitylofi.mp3" />
     </div>
   );
 };
