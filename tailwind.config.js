@@ -24,8 +24,8 @@ module.exports = {
           "100%": { opacity: "1", transform: "translateX(0)" },
         },
         typing: {
-          "0%": { width: "0%" },
-          "100%": { width: "100%" },
+          "0%": { maxWidth: "0%" },
+          "100%": { maxWidth: "100%" },
         },
         blink: {
           "50%": { borderRightColor: "transparent" },

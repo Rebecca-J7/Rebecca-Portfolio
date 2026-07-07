@@ -8,7 +8,7 @@ const NAV_ITEMS = [
   { href: "/", label: "#home" },
   { href: "/about", label: "#about" },
   { href: "/experience", label: "#experience" },
-  { href: "/projects", label: "#projects" },
+  { href: "/techprojects", label: "#projects" },
 ];
 
 const Header = () => {

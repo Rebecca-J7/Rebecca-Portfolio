@@ -77,7 +77,7 @@ const other = [
 
 export default function AboutPage() {
   return (
-    <div className="relative font-sans text-[#EDEAF6]">
+    <div className="relative flex flex-col items-center font-sans text-[#EDEAF6]">
       <main className="relative z-10 max-w-3xl px-8 py-16 md:px-16">
         <h1 className="mb-10 text-4xl font-semibold">// About</h1>
 
