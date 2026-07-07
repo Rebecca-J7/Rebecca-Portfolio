@@ -22,6 +22,8 @@ const Footer = () => {
               <Link
                 key={l.label}
                 href={l.href}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="group relative flex items-center gap-1.5 font-mono text-xs text-[#9691AA] transition-colors hover:text-[#B8A6FF]"
               >
                 <l.icon size={13} />

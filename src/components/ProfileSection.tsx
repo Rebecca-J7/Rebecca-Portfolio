@@ -74,6 +74,8 @@ function ContactWindow() {
           <a
             key={l.label}
             href={l.href}
+            target="_blank"
+            rel="noopener noreferrer"
             className="flex items-center gap-3 rounded-md px-2 py-2 text-sm text-[#C9C5D9] transition-colors hover:bg-[#221E30] hover:text-[#B8A6FF]"
           >
             <span className="flex h-8 w-8 items-center justify-center rounded-md bg-[#221E30] text-[#B8A6FF]">
