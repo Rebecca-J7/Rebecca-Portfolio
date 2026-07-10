@@ -14,6 +14,7 @@ type Project = {
   repo?: string;
   live?: string;
   devpost?: string;
+  design?: string;
 };
 
 // Order here is the display/key order — same convention as the experience cards,
@@ -39,18 +40,24 @@ const PROJECTS: Project[] = [
     ext: "PY",
     extColor: "text-yellow-300 bg-yellow-500/10",
     bullets: [
-      "An AI-powered study style quiz app that helps you discover how you learn best and gives you personalized study strategies.",
-      "More info coming soon!",
+      "Full-stack web app that uses generative AI to assess VARK learning styles and deliver personalized study recommendations.",
+      "Built a 3-tier architecture: FastAPI backend (Railway) + Next.js frontend (Vercel), connected via a custom proxy route.",
+      "Integrated Google Gemini through the Google Agent Platform, implementing Tool Use and Reflection agentic patterns for adaptive follow-up questioning.",
+      "Designed a confidence-threshold system (40%) that triggers elaboration prompts on vague quiz responses for more accurate results.",
+      "Drove development with TDD, reaching 40 passing tests across storage, recommendation, engine, and interface layers.",
     ],
-    image1: "/ComingSoon.jpg",
-    image2: "/ComingSoon.jpg",
+    image1: "/StudySpace1.png",
+    image2: "/StudySpace2.png",
     tags: [
-      "Google Gemini",
       "Python",
-      "Vercel",
+      "FastAPI",
+      "TypeScript",
       "Railway API",
-      "GCP",
       "Next.js",
+      "Google Gemini",
+      "Google Agent Platform",
+      "Google Sheets API",
+      "pytest",
     ],
     repo: "https://github.com/Rebecca-J7/Study-Space",
     live: "https://study-space-teal.vercel.app/",
@@ -66,8 +73,8 @@ const PROJECTS: Project[] = [
       "Connected ESP32-CAM hardware to a Supabase backend so captured cabinet images translate into live product counts on the map's API.",
       "Trained an Edge Impulse computer vision model (30–50+ labeled images across pad, tampon, and empty classes) for on-device classification with 85.7% accuracy.",
     ],
-    image1: "/ComingSoon.jpg",
-    image2: "/ComingSoon.jpg",
+    image1: "/LunaGrid1.jpg",
+    image2: "/LunaGrid2.png",
     tags: [
       "React",
       "Tailwind",
@@ -79,6 +86,172 @@ const PROJECTS: Project[] = [
     ],
     repo: "https://github.com/Rebecca-J7/luna-grid",
     devpost: "https://devpost.com/software/luna-grid",
+  },
+  {
+    name: "R'Accessible",
+    file: "raccessible.vue",
+    ext: "Vue",
+    extColor: "text-green-300 bg-green-500/10",
+    bullets: [
+      "Developed a mobile-friendly web application that allows users to report and view accessibility barriers in public spaces within their location.",
+      "Contributed to a map-based visualization feature that enables uploaded CSV data to display report locations and highlight accessibility problem areas.",
+      "Implemented location capture functionality using the Browser Geolocation API, enabling users to submit reports tied to their current coordinates.",
+    ],
+    image1: "/RAccessible1.png",
+    image2: "/RAccessible2.png",
+    tags: [
+      "Vue 3",
+      "Vite",
+      "HTML/CSS",
+      "Browser Geolocation API",
+      "Google Apps Script",
+      "Google Sheets API",
+    ],
+    repo: "https://github.com/Rebecca-J7/R-Cane",
+    devpost: "https://devpost.com/software/r-cane",
+  },
+  {
+    name: "EcoSort",
+    file: "ecosort.py",
+    ext: "Python",
+    extColor: "text-yellow-300 bg-yellow-500/10",
+    bullets: [
+      "Developed a computer vision–based waste sorting system to classify items as landfill, recycling, or compost for improved disposal accuracy in public spaces.",
+      "Implemented real-time object identification using Python and PyTorch with webcam input and averaged predictions to improve classification reliability.",
+      "Integrated software and hardware by transmitting classification results from Python to an Arduino, triggering servo-controlled bin openings and OLED user prompts.",
+    ],
+    image1: "/Ecosort1.jpg",
+    image2: "/Ecosort2.jpg",
+    tags: ["Python", "Numpy", "OpenCV", "TensorFlow", "Arduino"],
+    repo: "https://github.com/Rebecca-J7/EcoSort",
+    devpost: "https://devpost.com/software/ecosort-y7r8ig",
+  },
+  {
+    name: "Microblog Website",
+    file: "microblog.js",
+    ext: "JavaScript",
+    extColor: "text-yellow-300 bg-yellow-500/10",
+    bullets: [
+      "Developed a full-featured microblogging website enabling account creation, posting, following, user feeds, and profile management using Firebase for data storage and retrieval.",
+      "Implemented collaborative folder features allowing users to save posts, invite others to contribute, and engage in shared discussions, enhancing content exchange and user interaction.",
+      "Aligned project design with historical technology principles, incorporating reception, marketization, moderation, and preservation to emphasize thoughtful user engagement.",
+    ],
+    image1: "/Microblog1.png",
+    image2: "/Microblog2.png",
+    tags: ["JavaScript", "Firebase", "HTML/CSS"],
+    repo: "https://github.com/Rebecca-J7/CS110-Project",
+    live: "https://cs110-aa317.web.app/",
+  },
+  {
+    name: "kwhatt.",
+    file: "kwhatt.fima",
+    ext: "Figma",
+    extColor: "text-red-300 bg-red-500/10",
+    bullets: [
+      "Designed a mobile app to help first-time renters and young adults monitor home energy usage, visualizing ecological and financial impact through smart and conventional device integration.",
+      "Implemented core features including room scanning with the camera, appliance usage tracking, weekly summaries, and an energy cost calculator to guide informed decision-making.",
+      "Conducted user research and UI/UX design in Figma, creating wireframes, user personas, surveys, and user flows to optimize usability and enhance engagement.",
+    ],
+    image1: "/Kwhatt1.png",
+    image2: "/Kwhatt2.png",
+    tags: ["Figma"],
+    devpost: "https://devpost.com/software/wattwise-name-tbd",
+    design:
+      "https://www.figma.com/design/GpOVNy7iu4H0IdcRHeB94d/kwhatt.---Team-Whale--Actually?node-id=2-4&t=ZmxazeiZeHQzhWkX-1",
+  },
+  {
+    name: "Smooth Shot",
+    file: "smoothshot.ino",
+    ext: "Arduino",
+    extColor: "text-cyan-300 bg-cyan-500/10",
+    bullets: [
+      "Developed a low-cost automated camera rig that performs programmable pans, tilts, and tracking shots using Arduino-controlled motors and a joystick interface.",
+      "Designed and assembled the rig using 3D-printed and cardboard components to house the stepper motor, joystick, and LED matrix, which displays a countdown for filming synchronization.",
+      "Implemented precise motion control and 360° rotation capabilities to enable repeatable camera movements for time-lapse, stop-motion, and cinematic recordings.",
+    ],
+    image1: "/SmoothShot1.jpg",
+    image2: "/SmoothShot2.jpg",
+    tags: ["Arduino", "C++"],
+    repo: "https://github.com/Rebecca-J7/SmoothShot",
+    devpost: "https://devpost.com/software/smoothshot",
+  },
+  {
+    name: "Vitamin D-Ficiency Kit",
+    file: "vitamin-d-ficiency-kit.ino",
+    ext: "Arduino",
+    extColor: "text-cyan-300 bg-cyan-500/10",
+    bullets: [
+      "Collaborated in a team of five to design a comprehensive “Vitamin D-ficiency Kit” featuring a pill dispenser, sunlight tracker, and educational website to promote healthy vitamin D habits.",
+      "Engineered an Arduino-powered pill dispenser and sun tracker with LED feedback and motorized rotation, enabling users to monitor sunlight exposure and receive pill reminders.",
+      "Developed an interactive website to educate users on vitamin D deficiency and available treatments, integrating credible health resources and clear UX design.",
+    ],
+    image1: "/Vitamin1.jpg",
+    image2: "/Vitamin2.png",
+    tags: ["Arduino", "C++", "TailwindCSS"],
+    repo: "https://github.com/Rebecca-J7/Vitamin-D-Ficiency",
+    devpost: "https://devpost.com/software/vitamin-d-ficiency",
+  },
+  {
+    name: "Plant Bodyguard",
+    file: "plant-bodyguard.ino",
+    ext: "Arduino",
+    extColor: "text-cyan-300 bg-cyan-500/10",
+    bullets: [
+      "Collaborated in a team of 4 to develop a “Plant Bodyguard” system using Arduino that monitors light, temperature, and motion to provide real-time feedback for optimal plant growth.",
+      "Integrated sensors including a photoresistor, DHT11, HC-SR04, and a passive buzzer to measure environmental conditions and trigger visual or auditory alerts.",
+      "Programmed and synchronized multiple sensor components in C++ to operate simultaneously, enhancing understanding of embedded systems and real-time data processing.",
+    ],
+    image1: "/Plant1.jpg",
+    image2: "/Plant2.jpg",
+    tags: ["Arduino"],
+    repo: "https://github.com/Rebecca-J7/Rosehack-2025/tree/main",
+    devpost: "https://devpost.com/software/rosehack-2025",
+  },
+  {
+    name: "Playlist Organizer",
+    file: "playlist-organizer.cpp",
+    ext: "C++",
+    extColor: "text-blue-300 bg-blue-500/10",
+    bullets: [
+      "Developed a terminal-based Playlist Organizer in C++ using Visual Studio, enabling users to create/delete accounts, search songs with filters, and manage playlists through CRUD operations.",
+      "Improved software reliability by designing and implementing Google Tests and debugging with Valgrind, resulting in 100% resolution of all detected memory leaks.",
+      "Planned and documented system architecture by creating Navigation and Class Diagrams, and Screen Layouts to clarify relationships between modules and improve development efficiency.",
+    ],
+    image1: "/Playlist1.png",
+    image2: "/Playlist2.png",
+    tags: ["C++"],
+    repo: "https://github.com/cs100/final-project-the-kitchen",
+  },
+  {
+    name: "UCR Taekwondo Club Website",
+    file: "tkd-website.tsx",
+    ext: "React",
+    extColor: "text-blue-300 bg-blue-500/10",
+    bullets: [
+      "Collaborated with developers and team leads to design and implement the Taekwondo Club website, contributing responsive page sections, animations, and interactive components.",
+      "Delivered 1–2 weekly tasks including embedding links, fixing code redundancy, and optimizing components for responsive design using Next.js and Tailwind CSS.",
+      "Enhanced site functionality by implementing state-based scroll features, animating page elements, and reducing code redundancy through modular component design.",
+    ],
+    image1: "/TKD1.png",
+    image2: "/TKD2.png",
+    tags: ["React", "TypeScript", "TailwindCSS"],
+    live: "https://tkd.ucrhighlanders.org/",
+  },
+  {
+    name: "UCR 3D Club Web Design",
+    file: "3d-club.figma",
+    ext: "Figma",
+    extColor: "text-red-300 bg-red-500/10",
+    bullets: [
+      "Collaborated with team leads and club members to design a responsive website template for desktop and mobile, ensuring alignment with club goals and usability standards.",
+      "Applied UI/UX principles learned from ACM workshops to organize components, optimize navigation, and balance visual design elements for improved user experience.",
+      "Iterated on design feedback from club leads to refine layouts, labeling, and component duplication, resulting in an efficient and cohesive website prototype.",
+    ],
+    image1: "/3D1.png",
+    image2: "/3D2.png",
+    tags: ["Figma"],
+    design:
+      "https://www.figma.com/design/M5lBBZmtmt9YTyDL8j5lZk/3D-Club-Website?node-id=0-1&t=5R5b1lc4Z6hBW3HQ-1",
   },
 ];
 
@@ -191,7 +364,7 @@ export default function ProjectsPage() {
                 {[1, 2].map((i) => (
                   <div
                     key={i}
-                    className="flex h-40 items-center justify-center rounded-md border border-[#2A2536] bg-[#0D0B12]"
+                    className="flex h-52 items-center justify-center rounded-md border border-[#2A2536] bg-[#0D0B12]"
                   >
                     <img
                       src={i === 1 ? active.image1 : active.image2}
@@ -231,6 +404,16 @@ export default function ProjectsPage() {
                     className="flex items-center gap-1.5 font-mono text-sm text-[#9691AA] transition-colors hover:text-[#B8A6FF]"
                   >
                     <ExternalLink size={13} /> live
+                  </a>
+                )}
+                {active.design && (
+                  <a
+                    href={active.design}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-1.5 font-mono text-sm text-[#9691AA] transition-colors hover:text-[#B8A6FF]"
+                  >
+                    <ExternalLink size={13} /> design
                   </a>
                 )}
               </div>
