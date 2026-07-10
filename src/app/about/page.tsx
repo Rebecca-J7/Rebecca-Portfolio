@@ -73,6 +73,7 @@ const frameworks = [
 const other = [
   { name: "Gemini API", badge: "G", color: "#B8A6FF" },
   { name: "GCP", badge: "☁", color: "#8FA8E8" },
+  { name: "Figma", badge: "F", color: "#E2857A" },
 ];
 
 export default function AboutPage() {

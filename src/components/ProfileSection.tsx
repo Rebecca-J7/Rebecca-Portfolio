@@ -3,7 +3,7 @@ import { Paperclip, Mail, Linkedin, Github, FileText } from "lucide-react";
 
 function ProfileFolder() {
   return (
-    <div className="relative mb-28 mt-28 max-w-xl">
+    <div className="relative mb-28 mt-16 max-w-xl">
       {/* folder tab */}
       <div className="absolute -top-11 left-8 rounded-t-md border border-b-0 border-[#2A2536] bg-[#1C1926] px-5 py-3">
         <span className="font-mono text-sm text-[#B8A6FF]">profile.folder</span>
